@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer{
+    background-color: gray;
+    text-align: center;
+    height: 100px;
+    /* width: 100%; */
+    border: 3px solid black;
+    clear: both;
+}
+
+section{
+    float: left;
+    text-align: center;
+    height: 300px;
+    width: 33.3333%;
+    background-color: gray;
+    border: 3px solid black;
+}

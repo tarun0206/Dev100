@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer{
+    background-color: gray;
+    text-align: center;
+    height: 100px;
+    /* width: 100%; */
+    border: 1px solid black;
+    clear: both;
+}
+
+.top{
+    float: left;
+    text-align: center;
+    height: 300px;
+    width: 40%;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.similar{
+    float: left;
+    text-align: center;
+    height: 300px;
+    width: 20%;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+/* #seventy{
+    float: left;
+    text-align: center;
+    height: 300px;
+    width: 70%;
+    background-color: gray;
+    border: 1px solid black;
+} */

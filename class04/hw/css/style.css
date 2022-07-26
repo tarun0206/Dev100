@@ -1,0 +1,39 @@
+body{
+    background-color: #87CEEB;
+    border: 4px solid #48CD31;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0 0 10px 0;
+}
+li + li{
+    margin-left: 10px;
+}
+img{
+    width: 125px;
+    height: 150px;
+    margin-top: 55px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    float: right;
+    position: relative;
+}
+p{
+    text-align: justify;
+}
+
+article{
+    margin-left: 11px;
+    margin-right: 11px;
+    color: white;
+}
