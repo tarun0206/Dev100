@@ -28,3 +28,28 @@ header,footer{
     background-color: gray;
     border: 1px solid black;
 }
+
+    
+@media (min-width:301px) and (max-width: 500px) {
+    header,footer,.top,.bottom{
+        background: blue;
+    }
+    .top,.bottom{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    header,footer{
+        background: red;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+    .top{
+        background: green;
+        width: 50%;
+    }
+}
+    
+}

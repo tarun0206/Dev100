@@ -19,3 +19,10 @@ section{
     background-color: gray;
     border: 3px solid black;
 }
+
+@media screen {
+    header,footer,section{
+        max-width: 100%;
+    }
+}
+    
