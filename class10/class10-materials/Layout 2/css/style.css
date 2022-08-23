@@ -1,0 +1,119 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background: black;
+}
+
+nav * {
+  float: left;
+  background: black;
+  width: 6%;
+  color: rgb(234, 226, 226);
+  text-decoration: none;
+  text-align: center;
+  height: 44px;
+}
+
+nav img{
+  padding: 0 0 0 0;
+  width: 126px;
+  border: 1px solid grey;
+}
+
+
+.navs{
+  width: 7%;
+  border: 0.5px solid grey;
+  padding-top: 10px;
+}
+
+#sign{
+  width: 185px;
+}
+
+#more{
+  width: 185px;
+}
+
+nav form{
+  width: 172px;
+}
+
+nav > form input{
+  width: 105%;
+  background: white;
+  text-align: left;
+  border: 7px solid black;
+}
+
+.right, .left {
+  float: left;
+  width: 49%;
+  margin: 5px 7.6px;
+}
+
+.left > section{
+  background: grey;
+  box-sizing: border-box;
+  padding-top: 216px;
+}
+
+.right section{
+  float: left;
+  width: 49%;
+  background: grey;
+  padding-top: 68px;
+  height: 168px;
+}
+
+.right h2{
+  font-weight: 300;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.bottom{
+  margin-top: 12px;
+}
+
+.rightt{
+  margin-left: 12px;
+}
+
+article section{
+  float: left;
+  background: grey;
+  width: 33.33%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

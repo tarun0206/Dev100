@@ -21,8 +21,9 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
+html {
+  font-size: 62.5%;
+  font-family: 'Noto Serif', serif;
 }
 
 
@@ -30,13 +31,187 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
+  background-image: linear-gradient(176deg, #1C2332  70%, #F4F4F4 calc(70% + 2px));
+  display: flex;
+  flex-direction: column;
 
 }
 
-footer {
-
+.top nav{
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 3%;
+  padding-right: 5%;
 }
 
+.top > nav a{
+  color: #DEE0E9;
+  margin: 0 2%;
+  text-decoration: none;
+}
+
+.top > nav button{
+  background: #b3bac6;
+  border: 0;
+  border-radius: 4px;
+  margin-left: 2%;
+  padding: 1.2rem 2rem;
+  cursor: pointer;
+}
+
+.middle {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  margin-top: 5%;
+}
+.middle > article h1{
+  font-size: 3.2rem;
+  margin: 0 34% 0 10%;
+}
+
+.middle > article p{
+  font-size: 1.6rem;
+  margin: 2% 34% 0 10%;
+}
+
+.middle > article > div button{
+  margin: 5% -4% 0 10%;
+  background: white;
+  color: #1C2332;
+  font-size: 1.2rem;
+  border: 0;
+  border-radius: 4px;
+  padding: 1.2rem 2rem;
+  cursor: pointer;
+}
+
+#without{
+  color: white;
+  background: #1C2332;
+}
+
+.middle > div button{
+  width: 52rem;
+  margin-right: 5.5rem;
+  background: #DEE0E9;
+  border: solid white;
+  border-width: 2rem 4rem;
+  box-shadow: 2px 15px 13px -15px #111;
+  border-radius: 3rem; 
+  height: 29rem;
+}
+
+.bottom div{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.bottom > div img{
+  margin: 2% 1%;
+  height: 6rem;
+  padding: 3px;
+}
+
+.topmost{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5% 5%;
+}
+
+.topmost > article{
+  color: #1C2332;
+  font-size: 1.6rem;
+  margin: 0.625rem 4.25rem 0 0;
+}
+
+.topmost > article button{
+  margin: 12% -4% 0 0%;
+  background: #1C2332;;
+  color: white;
+  font-size: 1.2rem;
+  border: 0;
+  border-radius: 4px;
+  padding: 1.2rem 2rem;
+  cursor: pointer;
+}
+
+#images{
+  display: flex;
+  flex-direction: column;
+}
+
+.four{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5% 5%;
+}
+
+.four div{
+  text-align: center;
+  margin: 0 1rem 0 4rem;
+}
+
+.four > div img{
+  height: 21rem;
+  width: 23rem;
+  padding: 3px;
+}
+
+.four > div p {
+  word-spacing: 0.37rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.11rem;
+}
+
+.topmost > article p{
+  margin-top: 4.813rem;
+  word-spacing: 0.37rem;
+  letter-spacing: 0.1rem;
+  line-height: 2.01rem;
+}
+
+.middlemost{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7% 0 0 0;
+}
+
+.middlemost > img{
+  margin: 1.6% 6% 0 6%;
+  height: 43.28rem;
+  width: 56rem;
+}
+
+.middlemost > article{
+  color: #1C2332;
+  font-size: 1.6rem;
+  margin: 0 20px 0 11px;
+}
+
+.middlemost > article button{
+  margin: 12% -4% 0 0%;
+  background: #1C2332;;
+  color: white;
+  font-size: 1.2rem;
+  border: 0;
+  border-radius: 4px;
+  padding: 1.2rem 2rem;
+  cursor: pointer;
+}
+
+.middlemost > article p{
+  margin-top: 4.813rem;
+  word-spacing: 0.37rem;
+  letter-spacing: 0.1rem;
+  line-height: 2.01rem;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/

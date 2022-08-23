@@ -1,0 +1,258 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-size: 62.5%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background: #1C2332;
+  background-image: linear-gradient(174deg, #1C2332  70%, white calc(70% + 2px));
+  height: 64rem;
+}
+
+.nleft{
+  float: left;
+  width: 40%;
+}
+
+.nleft button{
+  margin: 2.8rem 0 0 11%;
+  background: #1C2332;
+  height: 2rem;
+  border: 0.4rem solid white;
+  border-radius: 1.5rem;
+}
+
+.nright{
+  float: left;
+  width: 60%;
+  margin-top: 1.1rem;
+}
+
+.nright > a, button {
+  text-decoration: none;
+  font-size: 1.27rem;
+  color: #D3D6DF;
+  margin-right: 8%;
+}
+
+.nright > button{
+  background: #3C424F;
+  height: 5.2rem;
+  width: 11rem;
+  border: 0px;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.main > section{
+  float: left;
+  width: 50%;
+}
+
+.sleft h1{
+  color: white;
+  font-size: 3.68rem;
+  font-weight: 200;
+  padding: 9% 36% 0 8%;
+}
+
+.sleft p{
+  color: #B0B2B7;
+  font-size: 1.7rem;
+  font-weight: 200;
+  padding: 1% 11% 8% 8%;
+}
+
+.sbutton{
+  padding: 0 0 0 8%;
+}
+
+.sbutton button{
+  color: #1C2332;
+  height: 5rem;
+  width: 17rem;
+  border-radius: 0.6rem;
+  font-weight: 550;
+  border: 0;
+}
+
+.sbutton button + button{
+  color: white;
+  background: #1C2332;
+}
+
+.sright > button{
+  height: 37rem;
+  width: 80%;
+  background: #DDE0E9;
+  color: black;
+  font-size: 3rem;
+  border: solid white;
+  border-width: 3rem 5rem;
+  border-radius: 3rem;  
+  margin: 12% 0 0 8%;
+  box-shadow: 0px 16px 58px -3px #111;
+}
+
+aside{
+  text-align: right;
+  margin-right: 4%;
+}
+
+aside > img{
+  height: 4rem;
+  width: 6.6%;
+  margin: 0 0 0 2.4%;
+}
+
+.leftSec > section{
+  float: left;
+  width: 50%;
+  margin-top: 10%;
+  padding: 0 10% 0 4%;
+}
+
+.leftSec > section > span{
+  color: #1C2332;
+  font-size: 1.27rem;
+  font-weight: 500;
+}
+
+.leftSec > section > h2{
+  color: #1C2332;
+  font-size: 3.68rem;
+  font-weight: 200;
+  margin : 3% 0 4% 0;
+}
+
+.leftSec > section > p{
+  color: #1C2332;
+  font-size: 1.7rem;
+  font-weight: 200;
+}
+
+.leftSec > section > button{
+  background: #1C2332;
+  color: white;
+  height: 5rem;
+  width: 22rem;
+  border-radius: 0.6rem;
+  font-weight: 550;
+  margin: 13% 0 0 0;
+  border: 0;
+}
+
+.rightSec{
+  margin-top: 10%;
+}
+
+.rightSec > section{
+  float: left;
+  width: 25%;
+  margin: 2% 0 0 0;
+}
+
+.rightSec > section > img{
+  height: 21rem;
+  width: 27rem;
+  border-radius: 5% 5% 0 0;
+}
+
+.rightSec > section > section{
+  width: 71%;
+  box-shadow: 0px 0.1rem 2.5rem -0.8rem #707070;
+  margin-top: -2.8px;
+  border-radius: 0 0 5% 5%;
+}
+
+.rightSec > section > section > h4{
+  text-align: center;
+  color: #1C2332;
+  font-size: 1.28rem;
+  font-weight: 700;
+  padding-top: 0.4rem;
+  margin: 0 0 0 0;
+}
+
+.rightSec > section > section > p{
+  text-align: center;
+  color: #1C2332;
+  font-size: 1.1rem;
+  font-weight: 200;
+  padding: 0 1.9rem 1.1rem 1.9rem;
+}
+
+.lsection > section{
+  float: left;
+  width: 50%;
+  margin-top: 10%;
+}
+
+.lsection > section > img{
+  height: 46rem;
+  margin: 0 0 0 8%;
+  border-radius: 4% ;
+}
+
+.lsection > section > span{
+  color: #1C2332;
+  font-size: 1.27rem;
+  font-weight: 500;
+}
+
+.lsection > section > h2{
+  color: #1C2332;
+  font-size: 3.68rem;
+  font-weight: 200;
+  margin : 3% 0 4% 0;
+}
+
+.lsection > section > p{
+  color: #1C2332;
+  font-size: 1.7rem;
+  font-weight: 200;
+}
+
+.lsection > section > button{
+  background: #1C2332;
+  color: white;
+  height: 5rem;
+  width: 22rem;
+  border-radius: 0.6rem;
+  font-weight: 550;
+  margin: 6% 0 0 0;
+  border: 0;
+}
+
+.lsection > section > h2,p{
+  padding: 0 11% 0 0;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

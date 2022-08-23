@@ -1,0 +1,299 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-size: 62.5%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background: #66768A;
+  height: 10rem;
+  width: 100%;
+}
+
+nav * {
+  /* background: #66768A; */
+  height: 3.4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav{
+  float: left;
+  width: 33.333%;
+  text-align: center;
+  margin: 1.7rem 0 0 0;
+}
+
+.img{
+  float: left;
+  width: 33.333%;
+  /* height: 5.5rem; */
+  text-align: center;
+  /* margin: 0.6rem 0 0 22.2rem; */
+  
+}
+
+.img > img{
+  align-items: center;
+  height: 4.2rem;
+  margin: 0.6rem 0 0 0;
+}
+
+.button{
+  float: left;
+  width: 33.333%;
+  text-align: center;
+  margin: 1.7rem 0 0 0;
+}
+
+.button > button{
+  background-color: whitesmoke;
+  color: #66768A;
+  border: 0px;
+  border-radius: 0.45rem;
+  /* margin: 1.7rem 0 0 51.9rem; */
+}
+
+.nav a{
+  font-size: 1.5rem;
+  padding: 0 0 0 4.3rem;
+  text-decoration: none;
+  color: #F1F1F1;
+}
+
+main *{
+  /* font-size: 56px;
+  font-weight: 700; */
+  margin : 0 0 0 0 ;
+  color: white;
+  text-align: center;
+}
+
+main{
+  height: 35rem;
+  background: #66768A;
+}
+
+main > h1{
+  padding: 6rem 0 0 0;
+  font-size: 5.6rem;
+  font-weight: 700;
+}
+
+main > p{
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin: 2.8rem 21% 0 ;
+}
+
+.why *{
+  text-align: center;
+}
+
+.why{
+  margin: 11rem 0 11rem 0;
+}
+
+.why > h1{
+  font-size: 5.3rem;
+  font-weight: 500;
+}
+
+.why > p{
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0 24%;
+}
+
+.rows > section {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.rows{
+  background: #ccd1d5;
+  height: 55rem;
+}
+
+.rows > section img{
+  width: 38%;
+  margin: 4.8rem 0 ;
+}
+
+.rows > section > h3 {
+  font-size: 2.2rem;
+  margin: 2rem 0 0;
+}
+
+.rows > section > p{
+  font-size: 1.3rem;
+  margin: 1.4rem 23% 0;
+}
+
+.rows > section > button{
+  height: 4.2rem;
+  width: 12.1rem;
+  margin: 3.1rem 0 0 0;
+  background: #ccd1d5;
+  border: 1px solid black;
+}
+
+
+.last {
+  text-align: center;
+}
+
+.last{
+  margin: 11rem 0 11rem 0;
+}
+
+.last > h1{
+  font-size: 4.3rem;
+  font-weight: 500;
+}
+
+.last > p{
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 3rem 26% 0 ;
+}
+
+
+.last > button{
+  height: 4.2rem;
+  width: 12.1rem;
+  margin: 6.1rem 0 0;
+  background: white;
+  border: 1px solid black;
+}
+
+
+footer {
+  background: #161F2A;
+  height: 30rem;
+}
+
+.leftfot{
+  float: left;
+  margin: 0 0 0 4rem;
+  
+}
+
+.rightfot{
+  float: right;
+  margin: 3.8rem 4rem 0 0;
+}
+
+.leftfot > section img{
+  height: 3.1rem;
+  margin: 4rem 1.2rem 0 0;
+}
+
+.leftfot > section > h4{
+  font-size: 1.3rem;
+  margin: 2rem 0 0.2rem 0;
+  color: #66768A;
+}
+
+.leftfot > section > a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.rightfot > section h4 {  
+  font-size: 1.3rem;
+  color: white;
+}
+
+.rightfot > section > p{
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.rightfot > section > a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  color : white;
+  font-weight: 600;
+  margin-top: 0.3rem;
+}
+
+hr{
+  float: left;
+  width: 91%;
+  margin: 3rem 0 1% 5%;
+}
+
+.left{
+  float: left;
+  width: 50%;
+}
+
+.right{
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+
+.left > h4{
+  font-size: 1.3rem;
+  color: white;
+  margin-top: 3rem;
+  padding-left: 5%;
+}
+
+.right > img{
+  height: 4.7rem;
+  margin: 1.3rem 0 0 0;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media all and (max-width :769px) {
+  html{
+    font-size: 52.5%;
+  }
+}
+
+@media all and (max-width :450px) {
+  html{
+    font-size: 34.5%;
+  }
+}
+
+@media all and (min-width : 1680px) {
+  html{
+    font-size: 83.5%;
+  }
+}

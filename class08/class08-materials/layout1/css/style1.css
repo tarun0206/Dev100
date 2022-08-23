@@ -1,0 +1,78 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    max-width: 120rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: 0 2rem 4rem rgb(0 0 0 / 13%);
+}
+
+header{
+    background: #66768A;
+    display: flex;
+    flex-direction: row;
+}
+  
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    padding: 2rem 5rem;
+}
+
+.header-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: #c4c9d0;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+.middle  img{
+    height: 40px;
+    width: 47px;
+  }
+  
+
+
+
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
