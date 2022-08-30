@@ -1,16 +1,13 @@
-document.querySelector('#check').addEventListener('click', check)
+document.querySelector('#check').addEventListener('click', judge);
 
-function check() {
-
-  const day = document.querySelector('#day').value
-  const main = day.toLowerCase()
-  if(main == 'saturday' || main == 'sunday'){
-    document.querySelector('#placeToSee').innerHTML = 'WEEKENDDDD!!!'
+function judge(){
+  const PDay = document.querySelector('#day').value
+  const day = PDay.toLowerCase();
+  if(day === 'saturday' || day === 'sunday'){
+    document.querySelector('#placeToSee').innerHTML = 'WEEEEKENDDD!!!!';
   }
+
   else{
-    document.querySelector('#placeToSee').innerHTML = 'BOOOOOOOOORINGG!!!'
+    document.querySelector('#placeToSee').innerHTML = 'BOOOORING!!!!';
   }
-  //Conditionals go here
-
-
 }
