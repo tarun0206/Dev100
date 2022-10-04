@@ -1,0 +1,99 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-size: 62.5%;
+  background-color: rgb(245, 249, 252);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5rem;
+}
+
+header > section > h1{
+  color: rgb(40, 65, 85);
+  font-size: 1.5rem;
+}
+
+
+.hLinks > a{
+  text-decoration: none;
+  color: rgb(69, 90, 107);
+  font-size: 0.8rem;
+  margin: 0 2rem;
+}
+
+header > section > button{
+  background-color: rgb(40, 65, 85);
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.5rem 1.4rem;
+  cursor: pointer;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.left {
+  margin: 6rem 0 0 10rem;
+}
+
+.left > span{
+  color: rgb(40, 65, 85);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.left > h1{
+  color: rgb(40, 65, 85);
+  font-size: 3rem;
+  padding-right: 28%;
+}
+
+.left > button{
+  background-color: rgb(40, 65, 85);
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.5rem 7.4rem;
+  cursor: pointer;
+}
+
+.left > p{
+  color: rgb(69, 90, 107);
+  font-size: 1rem;
+  padding-right: 41%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
