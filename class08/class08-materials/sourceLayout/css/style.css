@@ -70,7 +70,7 @@ main{
 }
 
 .left > span{
-  color: rgb(40, 65, 85);
+  color: rgb(136, 148, 158);
   font-size: 0.8rem;
   font-weight: 500;
 }
@@ -79,13 +79,28 @@ main{
   color: rgb(40, 65, 85);
   font-size: 3rem;
   padding-right: 28%;
+  margin-top: 0.6rem;
 }
 
-.left > button{
+.lSearch > input{
+  width: 44%;
+  height: 2.5rem;
+  background-color: rgb(226, 234, 240);
+  /* border: 1px solid rgb(40, 65, 85); */
+  border: 0;
+  /* border-radius: 0.2rem; */
+  padding: 0 1rem;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.lSearch > button{
   background-color: rgb(40, 65, 85);
   color: white;
   font-size: 0.8rem;
-  padding: 0.5rem 7.4rem;
+  width: 20%;
+  height: 2.5rem;
+  /* padding: 0.5rem 7.4rem; */
   cursor: pointer;
 }
 
